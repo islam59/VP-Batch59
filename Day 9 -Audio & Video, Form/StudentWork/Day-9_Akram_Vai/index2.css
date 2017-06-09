@@ -1,0 +1,154 @@
+*{margin:0px; padding:0px;}
+.container{
+	width:100%; background-color:#9CBC2C;
+	
+}
+h1{
+	margin-left:20%;
+}
+.form-group{
+	width:60%; min-height:150px;
+	margin:0px auto; padding:.2% .2%;
+}
+.item{
+	width:100%; min-height:30px;
+	border:1px solid white;
+	margin-bottom:1%; padding:6px;
+	box-shadow:0px 0px 0px 1px white;
+	background-color:rgba(185,207,106,2);
+	border-radius:3px;
+}
+.fl{
+	width:20%; 
+	float:left;
+}
+.fn{
+	width:60%; 
+	float:left;
+}
+.sub-item{
+	margin-left:20%;
+}
+.sub-item1{
+	width:100%; min-height:12px;
+	padding:5px;
+}
+label{
+	margin-left:20%;
+	
+	line-height:30px;
+}
+input[type='email']{
+	width:100%; 
+	padding:5px;
+	
+}
+input[type='phone']{
+	width:100%;
+	padding:5px;	
+	
+}
+/*End of Step 1*/
+.head{
+	width:60%; min-height:250px;
+	margin:0px auto; padding:.2% .2%;
+}
+.head-item{
+	width:100%; min-height:90px;
+	line-height:60px;
+	border:1px solid white;
+	margin-bottom:1%; padding:1%;
+	box-shadow:0px 0px 0px 1px white;
+	background-color:rgba(185,207,106,2);
+	border-radius:3px;
+}
+.fl-sub{
+	width:20%; 
+	float:left;
+}
+.fn-sub{
+	width:60%; 
+	float:left;
+}
+.sub-head{
+	width:20%; min-height:30px;
+	padding:6px;
+	
+}
+.sub-head1{
+	width:100%; min-height:30px;
+	padding:6px;
+}
+.item-sb{
+	width:100%; min-height:30px;
+	border:1px solid white;
+	margin-bottom:1%; padding:6px;
+	box-shadow:0px 0px 0px 1px white;
+	background-color:rgba(185,207,106,2);
+	border-radius:3px;
+	
+}
+.sub{
+	margin-left:20%;
+	
+}
+.sub1{
+	width:100%; min-height:12px;
+	padding:5px;
+}
+
+/*End of Step 2*/
+.nav{
+	width:100%; background-color:#9CBC2C;
+}
+.nav-head{
+	width:60%; min-height:250px;
+	margin:0px auto; padding:.2% .2%;
+}
+p{
+	font-size:20px;
+}
+.nav-item{
+	width:100%; min-height:90px;
+	line-height:60px;
+	border:1px solid white;
+	margin-bottom:1%; padding:1%;
+	box-shadow:0px 0px 0px 1px white;
+	background-color:rgba(185,207,106,2);
+	border-radius:3px;
+}
+.nav-sub{}
+.nav-sub1{}
+.pu{
+	width:10%;
+}
+.hg{
+	width:5%;
+	min-height:10px;
+	margin-top:-10%;
+}
+.Nav-item-sub{
+	width:100%; min-height:30px;
+	border:1px solid white;
+	margin-bottom:1%; padding:6px;
+	box-shadow:0px 0px 0px 1px white;
+	background-color:rgba(185,207,106,2);
+	border-radius:3px;
+}
+.nav1{
+	width:20%; 
+	float:left;
+}
+.nav2{
+	width:60%; 
+	float:left;
+}
+.sub-item-card{
+	margin-left:20%;
+}
+.sub-item-card1{
+	width:100%; min-height:12px;
+	padding:5px;
+}
+
+

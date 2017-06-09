@@ -1,0 +1,57 @@
+/*self style css....*/
+body{
+	background-color:#28D4C4;
+}
+/*END:End of body.....*/
+.header_section{
+	
+}
+.header_section h1{
+	padding:10px 0px;text-align:center;
+	color:#EAFFFF;text-shadow:1px 1px black;
+}
+/*END:End of header.....*/
+.menu_section{
+	
+}
+.menu-section-item{
+	background-color:#fff;
+	max-height:40px;
+}
+.col-md-4 p{
+	/*style code...*/
+
+}
+.col-md-4 p a{
+	color:#28D4C4;text-transform:uppercase;
+	font-weight:bold;line-height:40px;
+	
+}
+.col-md-8{
+	
+}
+.col-md-8 .menu-right-content{
+	background-color:#F0F0F0;
+	height:30px; margin:5px 0px;
+}
+/*END:End of menu sction....*/
+
+.content-section{
+	margin:8px 0px;
+	
+}
+.content-section-left,.content-section-right{
+	background-color:white;min-height:366px;
+}
+.content-section-center{/*content section style*/
+	background-color:;
+}
+.center,.bottom{background-color:white;margin-top:8px;}
+.top{/*content top box style..*/}
+.box{background-color:white;min-height:50px;}
+
+.center{min-height:250px;}
+.bottom{min-height:50px;}
+.section-prtfollio{margin-top:8px;}
+.footer{background-color:white;color:teal;text-align:center;padding:10px 0px;margin:8px 0px;margin-bottom:20px;}
+

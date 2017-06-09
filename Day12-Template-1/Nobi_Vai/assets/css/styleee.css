@@ -1,0 +1,32 @@
+*{margin:0px; padding:0px;}
+body{background-color:#000080;}
+
+
+/*........body........*/
+.container{}
+/*......container.......*/
+.header-section{background:#00A2EA; }
+.header-side{}
+/*header-section*/
+
+
+
+.temp-01-header{ margin:4px 0px; }
+.banner{background-color:#00A2EA;} 
+.banner h1{ color:white; font-weight:bold; text-transform:Uppercase; }
+
+.temp-01-menu{ margin:20px 0px; }
+.menu{background:#FFF; padding:20px 0px; }
+.bottom{ margin:20px 0px; }
+ .menu-box{ background-color:#00A2EA; min-height:100px; line-height:100px; text-align:center; 
+	color:white; font-size:3em; border-radius:20px; 
+ }
+
+.profile-pic{ text-align:center;   background-size:100% 100%; padding:20px 0px; }
+.profile-images{   width:10%; opacity:0.9; }
+.profile-images:Hover{ opacity:0.9; }
+.profile-name{ color:#fff; text-transform:Uppercase; padding:10px; }
+.profile-details{ color:#fff; font-weight:;  }
+
+.footer-section{ margin:10px 0px; }
+.footer{ background:#00A2EA;min-height:130px; text-align:center; color:#FFF; line-height:130px;}

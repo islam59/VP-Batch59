@@ -1,0 +1,18 @@
+Session # 1 //done...
+01. Discussion on Session#1 to Session#6 of Day 1. 
+
+Session#2
+02. Styling by attributes.
+03. Styling by css. 
+04. Discussion.....
+
+Session # 3
+05. Webpage Designing with HTML & CSS-inline.
+06. Webpage Designing with HTML & CSS-internal. 
+07. Good Practice of CSS writing style with example. 
+08. Discussion.....
+
+Session # 4
+09. Single Page CV-Template with img tag.
+10. Discussion.....
+11. Child Project 2- Table Works.

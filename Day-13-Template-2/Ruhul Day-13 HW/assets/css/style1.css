@@ -1,0 +1,26 @@
+body{background-color:#02027E;}
+.header-section{background-color:#00A2EA;min-height:80px;margin-top:30px;}
+.header-left h1{margin:0px;color:#468399;text-transform:uppercase;text-shadow:1px 1px white;}
+.header-menu {line-height:0px;color:white;margin-top:30px;}
+.list a{color:white;font-size:15px;}
+.list a:hover{background-color:white;color:teal;}
+.content{background-color:white;margin-top:30px;min-height:190px;}
+.content-left{background-color:#00A2EA;min-height:60px;border-radius:10px;margin-top:20px;margin-bottom:10px;}
+.profile{margin-top:30px;opacity:0.8}
+.img-custom{border-radius:100%;border:2px solid white;padding:2px;background:#00CC19;}
+.img-custom:hover{border-radius:100%;border:2px solid #00CC19;opacity:.7;}
+.image{text-align:center;margin-top:30px;}
+.image h3{text-align:center;color:white;text-transform:uppercase;text-shadow:2px 2px #00CC19}
+.gap{color:white;font-size:18px;text-align:justify;}
+.footer-section{text-align:center;background-color:#00A2EA;min-height:80px;margin:30px 0px;}
+.footer-section p{color:white;font-size:14px;padding:30px 0px;margin-top:10px;}
+
+.btn-akram-orange{
+	background:orange; 
+	color:white; 
+}
+
+.btn-akram-teal{
+	background:teal;
+	color:white; 
+}

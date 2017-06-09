@@ -1,0 +1,120 @@
+*{margin:0px; padding:0px;}
+.container{
+	width:100%; min-height:295px;
+	background-color:#DEE1E6;
+	padding:10% 0%;
+	
+	
+}
+.form_item{
+	width:50%; min-height:239px;
+	background: -webkit-linear-gradient(top,rgba(255,255,255,1),rgba(240,240,240,.9));
+	margin:0px auto;
+	padding:.5%;
+	box-shadow:0px 0px 5px;
+	
+}
+.section{
+	border:1px dashed #DEE1E6;
+	padding:7%;
+	
+}
+.sub_sec{
+	width:100%; min-height:20px;
+	margin-bottom:3%;
+	
+	
+}
+.sub_sec1{
+	width:30%; min-height:1px;
+	background: -webkit-linear-gradient(left,rgba(255,255,255,1),rgba(0,0,0,.9));
+	float:left;
+	padding:.2%;
+	margin:1%;
+	
+}
+.sub_sec2{
+	width:30%; 
+	
+	float:left; padding:1%;
+	color:black;
+	text-align:center;
+	margin:-2% 1% 1%;
+	
+	
+}
+.sub_sec3{
+	width:30%; min-height:1px;
+	background: -webkit-linear-gradient(right,rgba(255,255,255,1),rgba(0,0,0,.9));
+	float:left;
+	
+	padding:.2%;
+	margin:1%;
+	
+}
+
+.sub_in{
+	padding:0% 0%;
+	margin-bottom:5%;
+}
+.sub_in input[type='text']{
+	width:100%; padding:1%;
+	border-radius:5px;
+	box-shadow:0px 0px 5px;
+}	
+.sub_in1{
+	padding:0% 0%;
+	margin-bottom:5%;
+}
+.sub_in1 input[type='password']{
+	width:100%; 
+	padding:1%;
+	border-radius:5px;
+	box-shadow:0px 0px 5px;
+	background-color:#F1F1F1;
+}
+
+.submit{
+	margin-top:2%;
+	padding:2.5%;
+}
+.li{}
+.log {
+	width:20%;
+	float:left;
+	background: -webkit-linear-gradient(top,rgba(255,212,97,1),rgba(216,165,84,.9));
+	text-align:center;
+	padding:1%;
+	
+}
+.log a{
+	text-decoration:none;
+	font-size:18px;
+	color:black;
+	
+	
+	
+}
+.sub_log {
+	margin-left:30%;
+	float:left;
+}
+.sub_log a{
+	color:black;
+}
+.sub_log1{
+	float:right;
+}
+.sub_log1 a{
+	color:black;
+}
+.footer{
+	text-align:center;
+	margin-top:2%;
+}
+.footer a{
+	color:black;
+}
+.clear{
+	clear:left;
+}

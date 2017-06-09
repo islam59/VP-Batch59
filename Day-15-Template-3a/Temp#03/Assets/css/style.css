@@ -1,0 +1,68 @@
+/*My Customise style for Temp#03 */
+
+.header-section{
+	background-image:url('../images/header.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%; 
+}
+.header-section h1{	padding:10px 5px; 	margin-bottom:0px; }
+.header-section h1 a{	text-decoration:Underline; 	color:#b3ebf9; }
+.header-section h1 small{	color:#d0d0d0; 	font-size:13px; }
+.site-title span{ color:#b3ebf9; }
+/*Header End...*/
+
+.menu-section{ }
+.menu-section .menu-item{ background-color:#09a1c6; text-align:center;}
+.menu-section a{ background:none; color:white;  }
+.menu-section a:hover{ background:none; color:#b3ebf9;  }
+/*Menu end..*/
+
+.slider-section{
+	background:red; margin:10px 0px;
+}
+.left-menu{ background:#4dcbea; padding:10px 5px; }
+.left-menu a{ display:block; text-align:center; 	border:1px solid white; 
+	margin:1px; background:#0d89ba; 	color:white; 
+}
+
+.slider-section-blocks{ background-color:#92d5ef; }
+.slider{ padding:15px 0px;  width:50%; float:left;}
+#slider figure img{ width:20%; max-height:200px; min-height:200px; float:left;  }
+#slider{ overflow:hidden;  }
+#slider #fig-1,#fig-2{ 
+	width:500%;
+	position:relative; left:0; 
+	float:left; 
+	animation: 10s nobi infinite; 
+}
+@keyframes nobi{
+	0%{ left:0; }
+	20%{ left:-100%; }
+	40%{ left:-200%; }
+	60%{ left:-300%; }
+	80%{ left:-400%; }
+	100%{ left:-500%; }
+}
+ 	
+
+
+/*slider style end...*/
+.content-section{
+	margin:15px 0px;
+}
+.post{ padding:10px 10px; background:#92d5ef; }
+.post-details{ background:#e3f3f9; padding:10px; margin:5px 0px; border-radius:10px; }
+.post-details h3{ color:#FC6200; font-weight:bold; }
+.post-details p{}
+.post-details p a{ color:#FC6200; }
+.post-details h4{ color:#FC6200; font-weight:bold; text-decoration:Underline; }
+
+.section-info{ margin-bottom:20px; background:#09A1C6; padding:20px 0px; }
+.info{	text-align:center; color:white; }
+.info img{ width:15%;}
+
+.section-footer{ background-image:url('../images/header.jpg'); 
+	background-repeat:no-repeat; background-size:100%; 
+	color:white; 
+	text-align:center; padding:20px; 
+}

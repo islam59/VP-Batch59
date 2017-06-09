@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form_class2</title>
+		<style type="text/css" rel="stylesheet">
+			*{ margin:0px; padding:0px; }
+			body{ 
+				background-image: url(back.png); 
+				background-repeat: no-repeat; 
+				background-size:100%; 
+			}
+			.container{
+				background:white; 
+				width:50%; 
+				margin:20px auto; 
+			}
+			.form-header{ font-size:30px; padding:10px 20px;
+			
+				background: #A8D130; /* For browsers that do not support gradients */
+				background: -webkit-linear-gradient(#A8D130, #fff); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(#A8D130, #fff); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(#A8D130, #fff); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(#A8D130, #fff); /* Standard syntax */
+
+			}
+			.form-user{ padding:10px 20px; text-align:center; }
+			.form-user img{ width:8%; border:1px solid #ABD531; border-radius:100%; padding:2px; margin:auto; } 
+			.form-user h4{ color: #ABD531; }
+			
+			.form{	padding:10px 20px; 	}
+			fieldset{padding:10px; }
+			
+			.form-group{ margin:5px 0px; padding:0px 0px;  clear:both; }
+			.label{ width:30%; float:left; margin:2px 0px; }  
+			.inp-field{ width:68%; float:left; margin:2px 0px; }
+			input[type='text'],input[type='date'],input[type='email'],input[type='password']{ width:100%; }
+			input[type='radio']{  }
+			
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="form-header">Left Align Text Label</div>
+			<div class="form-user">
+				<img src="user.png" alt="no-user-image" />
+				<h4>Ruhul Amin</h4>
+			</div>
+			<div class="form">
+				<form >
+					<fieldset>
+						<legend>User Information</legend>
+						<div class="form-group">
+							<div class="label"><label for="firstname">First Name</label></div>
+							<div class="inp-field"><input type="text" id="firstname" placeholder="Enter First Name"></div>
+						</div>				
+						<div class="form-group">
+							<div class="label">Last Name</div>
+							<div class="inp-field"><input type="text" placeholder="Enter First Name"></div>
+						</div>			
+						<div class="form-group">
+							<div class="label">Username</div>
+							<div class="inp-field"><input type="text" placeholder="Enter First Name"></div>
+						</div>
+						<div class="form-group">
+							<div class="label">Date of Birth</div>
+							<div class="inp-field"><input type="date">
+						</div>
+						<div class="form-group">
+							<div class="label">Gender</div>
+							<div class="inp-field">
+								<input type="radio" name="gender" value="male">Male 
+								<input type="radio" name="gender" value="female">Feale 
+							</div>
+						</div>
+					</fieldset>	
+					<fieldset>
+						<legend>Login Information</legend>
+						<div class="form-group">
+							<div class="label">Email</div>
+							<div class="inp-field"><input type="email" placeholder="Enter First Name"></div>
+						</div>
+						<div class="form-group">
+							<div class="label">Confirm Email</div>
+							<div class="inp-field"><input type="email" placeholder="Enter First Name"></div>
+						</div>
+						<div class="form-group">
+							<div class="label">Password</div>
+							<div class="inp-field"><input type="password" placeholder="Enter First Name"></div>
+						</div>
+						<div class="form-group">
+							<div class="label">Re-enter Password</div>
+							<div class="inp-field"><input type="password" placeholder="Enter First Name"></div>
+						</div>
+					</fieldset>			
+					<fieldset>
+						<legend>Payment Information</legend>
+						<div class="form-group">
+							<div class="inp-field"><label>Re-enter Password</label></div>
+							<div class="inp-field"><input type="text" placeholder="Enter First Name"></div>
+						</div>
+					</fieldset>
+				</form>			
+			</div>
+			
+		</div>
+	</body>
+</html>

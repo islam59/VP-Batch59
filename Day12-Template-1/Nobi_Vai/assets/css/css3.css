@@ -1,0 +1,39 @@
+*{margin:0px; padding:0px;}
+body{background-color:#28D4C4;}
+/*full body....*/
+
+.header-sec{ }
+.header-sec h1{font-family:Calibri; font-size:20px; text-align:center; color:#FFF; font-weight:bold;  text-shadow: 1px 1px black;}
+/*End of header-sec*/
+
+.menu-sec{/*style......*/}
+.left-side{background-color:#FFF; max-height:50px;}
+.col-md-4 p{color:#28D4C4;}
+.col-md-4  p a{ line-height:50px; text-transform:uppercase;font-weight:bold;}
+.col-md-8 .right{background-color:#F0F0F0; height:30px; margin:10px 0px; }
+.right-side{background-color:#FFF; min-height:50px;}
+/*End of menu-sec*/
+
+
+
+.content-sec{ margin:10px 0px;}
+.content-left-item,.content-right-item{min-height:370px; background-color:#FFF;}
+.col-md-5{}
+.col-md-4{}
+
+.col-md-6,.bottom{ }
+.box{ background-color:#FFF; min-height:50px;}
+.center,.bottom{background-color:#FFF; margin:10px 0px;}
+.center{background-color:#FFF; min-height:250px;}
+.bottom{min-height:50px;}
+/*End of content-sec*/
+
+.portfolio{margin:5px 0px;}
+.portfolio .box1{background-color:#FFF; min-height:50px;}
+.portfolio .box2{background-color:#FFF; min-height:50px;margin-right:5px;}
+.portfolio .box3{background-color:#FFF; min-height:50px;}
+/*End of portfolio....*/
+
+.footer{color:teal; text-align:center; padding:10px 0px;
+	margin-top:10px; background:white; margin-bottom:20px;}
+	/*End of footer....*/

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form2</title>
+	<style>
+		.container{width:60%;margin:0px auto;min-height:750px;padding:20px;background-color:#9CBC2C;
+		}
+		.wrapper{background:#9CBC2C;opacity:0.6; width:100%; height:130px;
+		}
+		.wrapper1{background:#9CBC2C;opacity:0.6; width:100%; height:200px;
+		}
+		.wrapper2{background:#9CBC2C;opacity:0.6; width:100%; height:76px;
+		}
+		
+		.group{width:100%; min-height:30px; margin:5px 0px; border:3px solid white;line-height:30px; border-radius:5px;
+		}
+		.group1{width:100%; min-height:100px; margin:5px 0px; border:3px solid white;line-height:30px; border-radius:5px;
+		}
+		.group2{width:100%; min-height:70px; margin:3px 0px; border:3px solid white;line-height:30px; border-radius:5px;
+		}
+		.group h4{}
+		.item1{width:20%; height:20px; line-height:20px; text-align:left; padding:2px;float:left;
+		}
+		.item2{width:46%; height:20px; line-height:20px; text-align:left; padding:2px;float:left;
+		}
+		.item3{width:46%; height:20px; line-height:20px; text-align:left; padding:2px;float:left;
+		}
+
+		.rad{width:20%; height:20px; line-height:20px; text-align:left; padding:2px;float:left;
+		}
+		.rad img{margin-top:5px;
+		}
+		input[type='text']{width:120%; height:20px; border: 0px solid; background:white; margin: 2px 20px; border-radius:3px; opacity:1;
+		}
+		input[type='radio']{width:20px;
+		}
+		input[type='email']{width:120%; height:20px; border: 0px solid; background:white; margin: 2px 20px; border-radius:3px; opacity:1;
+		}
+		input[type='submit']{width:30%; height:30px; border: 0px solid; background:#374212; margin: 2px 350px;font-size:20px;font-weight:bold; border-radius:40px; opacity:1;color:#F6F6F5
+		}
+		.texta{width:120%; height:90px; border: 0px solid; background:white; margin: 2px 20px; border-radius:3px; opacity:1;
+		}
+	</style>
+</head>
+<body>
+<div class="container"><form><h4>Step1:Your Details</h4>
+
+<div class="wrapper">
+   <form>
+	<div class="group">
+	
+	
+		<div class="item1"><lebel>Name:</lebel></div>
+		<div class="item2"><input type="text" name="" placeholder="first and last name">
+	</div>
+</div>
+		
+	
+	
+	<div class="group">
+	
+		<div class="item1"><lebel>E-mail:</lebel></div>
+		<div class="item2"><input type="email" name="" placeholder="example@gmail.com"></div>
+	</div>
+	<div class="group">
+	
+		<div class="item1"><lebel>Phone:</lebel></div>
+		<div class="item2"><input type="text" name="" placeholder="input your phone number"></div>
+	</div>
+	</form>
+</div>
+
+	<h4>Step 2: Delivery Address</h4>
+<div class="wrapper1">
+	<form>
+	<div class="group1">
+	
+		<div class="item1"><lebel>Address:</lebel></div>
+		<div class="item2"><textarea name="" id="" cols="12" rows="4" class="texta"></textarea></div>
+	</div>
+	<div class="group">
+	
+		<div class="item1"><lebel>Post Code:</lebel></div>
+		<div class="item2"><input type="text" name="" placeholder="example@gmail.com"></div>
+	</div>
+	<div class="group">
+	
+		<div class="item1"><lebel>Country:</lebel></div>
+		<div class="item2"><input type="text" name="" placeholder="input your phone number"></div>
+	</div>
+	</form>
+</div>
+	<h4>Step 3: Card Details</h4>
+<form>
+
+<div class="wrapper2">
+ 
+	   
+	<div class="group2">
+	    <div>Card Type:</div>
+		
+		<div class="rad"><input type="radio" name="rad"><img src="visa.jpg" alt="no image">  VISA</div>
+		<div class="rad"><input type="radio" name="rad"><img src="amex.jpg" alt="no image"> amEx</div>
+		<div class="rad"><input type="radio" name="rad"><img src="master1.jpg" alt="no image"> Mastercard</div>
+	</div>
+</div>
+<div class="wrapper2">
+	<div class="group">
+	
+		<div class="item1"><lebel>Card number:</lebel></div>
+		<div class="item2"><input type="text" name="" ></div>
+	</div>
+	
+	<div class="group">
+	
+		<div class="item1"><lebel>Security Code:</lebel></div>
+		<div class="item2"><input type="email" name=""></div>
+	</div>
+	<div class="group">
+	
+		<div class="item1"><lebel>Name on Card:</lebel></div>
+		<div class="item2"><input type="text" name="" placeholder="Exact name on Card"></div>
+	</div>
+	<div>
+	
+		
+		<div class="item3"><input type="submit" name="" value="Buy IT"></div>
+	</div>
+  	
+</div>
+
+</form>
+</div>
+	
+</body>
+</html>

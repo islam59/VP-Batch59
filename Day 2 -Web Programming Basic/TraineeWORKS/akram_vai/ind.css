@@ -1,0 +1,18 @@
+body{
+	width:800px; 
+	margin:10px auto; 
+	box-shadow:0px 0px 1px black;
+	padding:10px;
+}
+img{
+	width:150px;
+}
+a{
+	font-weight:bold;
+	font-size:15px;
+	margin:0px 20px;
+}
+a:hover{
+	color:red; 
+	font-size:20px;
+}

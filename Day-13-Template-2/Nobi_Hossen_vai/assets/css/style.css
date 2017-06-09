@@ -1,0 +1,23 @@
+*{margin:0px; padding:0px;}
+body{background:#020181;}
+
+
+.container{}
+.header{background:#00A2EA;}
+.header h2{font-size:20px; font-weight:bold; color:#FFF;text-shadow:0px 0px 2px black;}
+.header h2 p{}
+
+.menu{background:#FFF;margin:20px 0px;}
+.top-item{margin:10px 0px;}
+.box{background:#00A2EA;min-height:50px; border-radius:10px;}
+
+.profile-pic{text-align:center;}
+.profile-pic img{width:12%; 120px; border:2px solid #00FF00; opacity:0.5;}
+.profile-pic img:hover{ opacity:0.9;}
+
+.content{}
+.content h4{font-size:20px; color:#FFF; font-weight:bold; text-transform:uppercase;}
+.content p{font-size:15px; color:#0f0; font-weight:bold; text-transform:uppercase;}
+
+.footer-sec{min-height:100px;background:#00A2EA;margin:20px 0px;}
+.footer{font-size:15px; text-align:center; color:silver; padding:40px 0px; }

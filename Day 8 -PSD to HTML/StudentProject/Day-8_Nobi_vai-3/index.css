@@ -1,0 +1,47 @@
+*{margin:0px; padding:0px;}
+body{background:#ffffff;}
+.container{width:60%; height:800px; margin:0px auto; background:#2F2F2F;display:block;}
+.header{width:85%; height:50px; margin:0px auto;}
+.logo{float:left;}
+.searchbar{float:right; margin-top:12px;}
+.container-block{width:85%; height:710px; margin:0px auto;clear:left;}
+.con-block{width:100%; height:250px; background:#ccc;}
+.headerr{width:100%; height:30px; background:#7EAA00;}
+.headerr ul{margin-left:10px; }
+.headerr ul li{float:left; list-style:none;  }
+.headerr ul li a{text-decoration:none;}
+/*start:div ull*/
+.ull ul li{width:10%;background:#2F2F2F; border-radius:5px;margin:5px; line-height:20px;text-align:center;}
+.ull ul li a{font-size:10px;color:#ffffff;}
+.ull ul li a:hover{color:#CCCCCC;}
+/*end:div ull*/
+.ulll ul li{margin:5px; line-height:20px;}
+.ulll ul li a{font-size:10px;color:#ffffff;}
+.image{width:50%;clear:left;}
+.image img{width:100%; height:200px;float:left;}
+.item,.con{width:50%;float:left;text-align:center; }
+.item h2{width:100%;float:left; }
+.item p{margin:right;}
+.link{margin-left:55%; clear:left; }
+.link  a{width:20%; height:30px; background:#739F00; border-radius:5px;text-decoration:none;}
+
+.cont-block{width:100%; height:460px; background:#ffffff;clear:left;  }
+.headerrr{width:100%; height:50px; background:#ccc;border-bottom:2px solid gray;}
+.logoo{float:left;}
+.logoo img{width:30px; height:30px; margin:10px;}
+.conn{width:15%; height:50px; float:left; font-size:8px;text-align:left; line-height:20px; margin:10px 0px;}
+.logooa{float:left;}
+.logooa img{width:30px; height:30px;margin:10px;}
+.logoob{float:left;}
+.logoob img{width:30px; height:30px;margin:10px;}
+.logooc{float:left;}
+.logooc img{width:30px; height:30px;margin:10px;}
+.con-a{width:65%;height:370px;border:1px solid gray;margin-top:-20px;float:left; clear:left;}
+.con-b{width:34%; height:370px;border:1px solid gray;margin-top:-20px;float:left;}
+.sub-con1{width:100%; height:180px; text-align:left; }
+.sub-con2{width:100%; height:200px;}
+.sub-con2logo{width:30px; height:30px; margin:15px;float:left;}
+.conn2{width:50%; height:50px; float:left; font-size:10px;text-align:left; line-height:20px; margin:10px 20px;}
+.sub-con3logo{width:30px; height:30px; margin:16px;float:left; clear:left;}
+.conn3{width:50%; height:50px; float:left; font-size:10px;text-align:left; line-height:20px; margin:10px 20px;}
+.footer{width:100%; height:30px; background:#7EAA00; margin-top:-30px; text-align:center;}

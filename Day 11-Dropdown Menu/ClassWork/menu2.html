@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Menu#2</title>
+		<style type="" rel="stylesheet">
+			*{ margin:0px; padding:0px; }
+			body{}
+			.container{ width:80%; margin:100px auto; }
+			h1{ font-size:3em; color:#024; margin-bottom:20px;}
+			.nav{ float:left; overflow:hidden; width:20%; text-align:center; }
+			.menu{     
+				font-size: 1.1em; text-decoration:none; padding: 8px 16px; 
+				display:block; background:#024; color:white; 
+			}
+			.menu:hover{ color:#d7d7d7; background-color:rgba(00,34,68,0.9); }
+			.menu-item{
+				display:none; position: absolute;	background-color: #f9f9f9; width:20%;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;
+			}
+			.menu-item a{     
+				float: none; color: black; padding: 12px 16px; text-decoration: none;
+				display: block; text-align: center; 
+			}
+			.menu-item a:hover{background:#ddd; } 
+			.nav:hover .menu-item{ display:block;  }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Drop Down Menu with div & Anchor..</h1>
+			<div class="nav">				
+				<a class="menu" href="">Menu Item 1</a>
+				<div class="menu-item">
+					<a href="">sub menu 1</a>
+					<a href="">sub menu 2</a>
+					<a href="">sub menu 3</a>
+					<a href="">sub menu 4</a>
+				</div>
+			</div>	
+			<div class="nav">				
+				<a class="menu" href="">Menu Item 1</a>
+				<div class="menu-item">
+					<a href="">sub menu 1</a>
+					<a href="">sub menu 2</a>
+					<a href="">sub menu 3</a>
+					<a href="">sub menu 4</a>
+				</div>
+			</div>	
+			<div class="nav">				
+				<a class="menu" href="">Menu Item 1</a>
+				<div class="menu-item">
+					<a href="">sub menu 1</a>
+					<a href="">sub menu 2</a>
+					<a href="">sub menu 3</a>
+					<a href="">sub menu 4</a>
+				</div>
+			</div>	
+			<div class="nav">				
+				<a class="menu" href="">Menu Item 1</a>
+				<div class="menu-item">
+					<a href="">sub menu 1</a>
+					<a href="">sub menu 2</a>
+					<a href="">sub menu 3</a>
+					<a href="">sub menu 4</a>
+				</div>
+			</div>	
+			<div class="nav">				
+				<a class="menu" href="">Menu Item 1</a>
+				<div class="menu-item">
+					<a href="">sub menu 1</a>
+					<a href="">sub menu 2</a>
+					<a href="">sub menu 3</a>
+					<a href="">sub menu 4</a>
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>

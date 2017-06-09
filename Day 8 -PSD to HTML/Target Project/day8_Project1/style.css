@@ -1,0 +1,54 @@
+*{ padding:0px; margin:0px; }
+.header{background-color:#202020; }
+.header-block{width:90%; margin:0px auto;	}
+.logo{ 	width:50%; float:left; 	text-align:center; 	}
+.logo img{ width:30%; }
+
+.menu{ float:left; width:50%; text-align:center; }
+.menu ul{ list-style:none; margin-top:48px; }
+.menu ul li{ display:inline; margin:5px;}
+.menu ul li a{ 
+	background-color: #99FF99; color:black; 
+	padding:10px; 
+	font-family:"Comic Sans MS", cursive, sans-serif; 
+	text-decoration:none; 
+	font-weight:bold; 
+}
+.menu ul li a:hover{ font-weight:none; opacity:0.7; }
+.menu ul li a:active{}	
+/*End: Header End*/
+
+.slider{width:90%; margin:0px auto; }
+.slider img{ height:350px; width:100%; box-shadow:0px 0px 4px black; }
+.slider:hover{ opacity:0.8; }
+/*End: slider end..*/
+
+.content{ width:90%; margin:0px auto;  }
+.content .con-data{
+	width:21%; 
+	margin-top: 30px; margin-bottom:30px;
+	margin-left:5%; margin-right:5%;
+	background-color:#D8D8D8; 
+	float:left; padding:1%; 
+	border-radius:20px; 
+	box-shadow:0px 0px 10px black; 
+	min-height:300px;
+	
+}
+.content .con-data h2{ text-align:center; font-family:"Comic Sans MS", cursive, sans-serif;  
+	padding:5px 0px; 
+}
+.content .con-data p{	margin-top:15px;  font-size: 1.5em; }
+/*End: content end..*/
+
+.footer{ width:90%; margin:0px auto; text-align:center; 
+	border-top: 2px solid black; padding:15px 0px; 	
+}
+.clear{	clear:left; }
+
+
+.box{ background-color:gray; width:30px; height:30px; padding:10px; 
+	border-radius: 10px; }
+.box:hover{ background-color:orange; }
+.box #month{ color:black; opacity:0.7; font-size:14px;}
+.box #date{ color:black; font-weight:bold; font-size:16px; }
